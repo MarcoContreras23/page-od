@@ -19,15 +19,13 @@ const LOCATION_MAPS_LINK = `https://www.google.com/maps/dir/?api=1&destination=$
 
 // TODO: reemplaza "#" por la URL real de cada red social.
 const SOCIAL_LINKS = [
-  { label: "Instagram", icon: InstagramIcon, href: "#" },
+  { label: "Instagram", icon: InstagramIcon, href: "https://www.instagram.com/od.vivianamogollon/" },
   { label: "Facebook", icon: FacebookIcon, href: "https://www.facebook.com/profile.php?id=61592402687233" },
-  { label: "TikTok", icon: TikTokIcon, href: "#" },
 ];
 
 const NAV_LINKS = [
   { href: "#inicio", label: "Inicio" },
   { href: "#nosotros", label: "Nosotros" },
-  { href: "#testimonios", label: "Testimonios" },
   { href: "#faq", label: "Preguntas frecuentes" },
   { href: "#ubicanos", label: "Ubícanos" },
   { href: "#contacto", label: "Contacto" },
