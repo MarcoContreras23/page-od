@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://TU-USUARIO.github.io/home",
+  "homepage": "https://MarcoContreras23.github.io/page-od",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
