@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Read(//c/Users/marco/.claude/**)",
+      "Read(//c/Users/marco/AppData/Local/Temp/claude/**)",
+      "Bash(find \"/c/Users/marco/AppData/Local/Temp\" -newermt '-20 minutes' -type f \\\\\\( -iname \"*.png\" -o -iname \"*.jpg\" -o -iname \"*.jpeg\" -o -iname \"*.webp\" \\\\\\) 2>/dev/null | head -50 *)",
+      "Bash(curl -sL -o src/assets/doctora.png \"https://hackmd.io/_uploads/rJ94_FDIGl.png\")",
+      "Bash(rm -f src/assets/doctora.png)",
+      "Bash(curl -sL -A \"Mozilla/5.0\" -o src/assets/doctora.png \"https://hackmd.io/_uploads/rJ94_FDIGl.png\" -w \"HTTP_STATUS:%{http_code}\\\\n\")",
+      "Bash(curl -sL -A \"Mozilla/5.0\" -o src/assets/doctora.jpg \"https://i.imgur.com/dFkx76t.png\" -w \"HTTP_STATUS:%{http_code}\\\\n\")",
+      "Bash(xxd)",
+      "Bash(curl -s -o /dev/null -w \"HTTP_STATUS:%{http_code} CONTENT_TYPE:%{content_type} SIZE:%{size_download}\\\\n\" \"http://localhost:5174/home/src/assets/doctora.png\")"
+    ]
+  }
+}
